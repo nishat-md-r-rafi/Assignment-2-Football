@@ -104,6 +104,7 @@ Recent Section
   justify-content: space-between;
   align-items: center;
   margin-top: 165px;
+  box-shadow: 0px 0px 40px steelblue;
 }
 
 .recent-detail {
@@ -113,16 +114,14 @@ Recent Section
 .recent-detail p {
   margin-top: 8px;
   margin-bottom: 24px;
+  font-size: 25px;
 }
-
-.recent div img {
-  width: 567px;
-  height: 427px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+td,
+th {
+  font-size: 30px;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 /* --------------------
