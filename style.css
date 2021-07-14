@@ -18,16 +18,16 @@ header h1 {
   padding-top: 139px;
 }
 
-header img {
+.header-banner img {
   height: 438px;
   width: 556.0103149414062px;
   padding-bottom: 86px;
 }
 
 header img:hover {
-  transform: rotate(15deg);
+  transform: rotate(7deg) scale(1.2);
   transition: transform 3s ease-out;
-  border-radius: 40%;
+  border-radius: 20%;
 }
 
 .button {
@@ -37,6 +37,9 @@ header img:hover {
   color: white;
   background-color: #e02c6d;
   border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* ----------------
@@ -87,6 +90,35 @@ main {
   font-size: 16px;
   color: #6c6c6c;
   margin-bottom: 18px;
+}
+
+/* ------------------
+Recent Section 
+------------------*/
+.recent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 165px;
+}
+
+.recent-detail {
+  height: 309px;
+  width: 469px;
+}
+.recent-detail p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.recent div img {
+  width: 567px;
+  height: 427px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* --------------------
