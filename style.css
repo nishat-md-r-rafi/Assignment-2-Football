@@ -110,6 +110,12 @@ Recent Section
 .recent-detail {
   height: 309px;
   width: 469px;
+  padding-left: 2rem;
+}
+
+.recent-detail h1 {
+  font-weight: 1000;
+  font-size: 35px;
 }
 .recent-detail p {
   margin-top: 8px;
@@ -120,7 +126,7 @@ td,
 th {
   font-size: 30px;
   padding: 1.5rem;
-  border: 1px solid black;
+  border: 1px dotted black;
   border-collapse: collapse;
 }
 
@@ -134,7 +140,7 @@ Footer Style
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 158px;
+  margin: 158px auto;
 }
 
 .footer img {
