@@ -160,6 +160,8 @@ Footer Style
 
 .footer .icon i {
   margin-right: 0.5rem;
+  height: 17.066843032836914px;
+  width: 17.066667556762695px;
 }
 
 /* ---------------
@@ -176,8 +178,11 @@ Media Qurey For Mobile device
     padding-top: 68px;
   }
 
-  header div {
-    width: 100%;
+  .header-title {
+    padding-left: 20px;
+  }
+  .header-banner img {
+    margin-right: 80px;
   }
 
   .players {
@@ -194,6 +199,10 @@ Media Qurey For Mobile device
   }
 }
 
+/*-------------------------------
+ Media Query For Tab 
+ ------------------------------*/
+
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   main {
     width: 100%;
@@ -203,6 +212,10 @@ Media Qurey For Mobile device
     display: flex;
     flex-direction: column;
     padding-top: 68px;
+  }
+
+  .header-title {
+    padding-left: 20px;
   }
 
   .players {
