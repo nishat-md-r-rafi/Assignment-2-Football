@@ -24,6 +24,12 @@ header img {
   padding-bottom: 86px;
 }
 
+header img:hover {
+  transform: rotate(15deg);
+  transition: transform 3s ease-out;
+  border-radius: 40%;
+}
+
 .button {
   width: 168px;
   height: 44px;
