@@ -175,4 +175,8 @@ Media Qurey
     grid-column-gap: 30px;
     justify-content: center;
   }
+
+  .recent {
+    flex-direction: column;
+  }
 }
